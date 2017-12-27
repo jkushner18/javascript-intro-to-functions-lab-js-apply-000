@@ -23,16 +23,21 @@ function logWhipser(string) {
 }
 
 
-function sayHiToGrandma(string){
+function sayHiToGrandma(string) {
   
   if (string === string.lowercase) {return 
   "I can't hear you!"}
   
   if (string === string.uppercase){return
-  "YES INDEED!"}
+  "YES INDEED!"
+    
+  }
   
-  else if(string === "I love you, Grandma."){return 
-  "I love you, too"}
+  else if(string === "I love you, Grandma.")
+  
+  {return "I love you, too."
+    
+  }
 
 } 
 
